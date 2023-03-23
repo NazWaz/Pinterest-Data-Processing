@@ -8,7 +8,6 @@ from kafka import KafkaProducer
 app = FastAPI()
 
 
-
 class Data(BaseModel):
     category: str
     index: int
